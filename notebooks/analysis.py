@@ -4,8 +4,13 @@ import pandas as pd
 # 📂 Charger les données
 # =========================
 
-mm = pd.read_csv("data/SAP_MM_Materials.csv")
-sd = pd.read_csv("data/SAP_SD_Sales.csv")
+mm = pd.read_csv("sap-mm-sd-analysis/sap-mm-materials.csv", delimiter=';')
+sd = pd.read_csv("sap-mm-sd-analysis/sap-sd-sales.csv", delimiter=';')
+
+# Convert numerical columns from string to numeric, handling comma as decimal separator
+sd["Net_Revenue_EUR"] = sd["Net_Revenue_EUR"].str.replace(',', '.').astype(float)
+sd["Unit_Price_EUR"] = sd["Unit_Price_EUR"].str.replace(',', '.').astype(float)
+mm["Standard_Cost_EUR"] = mm["Standard_Cost_EUR"].str.replace(',', '.').astype(float)
 
 # =========================
 # 📊 Analyse SD (ventes)
@@ -60,5 +65,5 @@ avg_discount = sd["Discount_Percent"].mean()
 print("\nRemise moyenne :", avg_discount)
 
 high_discount = sd[sd["Discount_Percent"] > 20]
-print("\nCommandes avec forte remise :")
+print("\nCommandes avec forte remise : Jarder :")
 print(high_discount.head())
