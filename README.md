@@ -40,14 +40,17 @@ Remise Moyenne : 2,34 % – La politique tarifaire est globalement maîtrisée a
 *   `sap-sd-sales.csv` : Historique des commandes et remises.
 *   `donnees_completes_analyse.csv` : Dataset final enrichi pour Power BI.
 
-fig_remise = px.scatter(merged, 
-                        x='Discount_Percent', 
-                        y='Margin',
-                        color='Material_ID',
-                        hover_data=['Customer_ID', 'Quantity'],
-                        title="Analyse de l'impact des remises sur la marge brute")
+Visualisations et Analyses Dynamiques
+L'utilisation de la bibliothèque Plotly permet une exploration interactive des données de performance. Trois axes d'analyse ont été privilégiés pour ce dossier :  
 
-# Ajuster la taille pour un format carré
-fig_remise.update_layout(width=700, height=700)
+Répartition du Chiffre d'Affaires et Profitabilité (Treemap)
+https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scrollTo=59ddf7b6&fullscreenOutput=true
+Ce graphique hiérarchique permet de visualiser instantanément la concentration des revenus par client et par produit. La couleur indique la rentabilité (du rouge pour les marges faibles au vert pour les profits élevés). Il met en évidence la dépendance de l'entreprise vis-à-vis du client CUST013.  
 
-fig_remise.show()
+Analyse de la Rentabilité par Référence (Bar Chart)
+https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scrollTo=d7e015de&fullscreenOutput=true
+Ce visuel classe les 10 produits générant le plus de valeur nette. Il confirme que la référence MAT021 est le pilier financier de l'activité, contrastant avec les produits à fort volume mais à faible marge.  
+
+Corrélation Remises / Marges (Scatter Plot)
+https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scrollTo=55aa40d1&fullscreenOutput=true
+Ce nuage de points analyse l'impact des politiques de remise sur le profit final. L'absence de points dans les zones de remises élevées (>20%) confirme une discipline commerciale stricte et une protection efficace de la marge brute.
