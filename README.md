@@ -39,3 +39,15 @@ Remise Moyenne : 2,34 % – La politique tarifaire est globalement maîtrisée a
 *   `sap-mm-materials.csv` : Données de coûts et groupes d'articles.
 *   `sap-sd-sales.csv` : Historique des commandes et remises.
 *   `donnees_completes_analyse.csv` : Dataset final enrichi pour Power BI.
+
+fig_remise = px.scatter(merged, 
+                        x='Discount_Percent', 
+                        y='Margin',
+                        color='Material_ID',
+                        hover_data=['Customer_ID', 'Quantity'],
+                        title="Analyse de l'impact des remises sur la marge brute")
+
+# Ajuster la taille pour un format carré
+fig_remise.update_layout(width=700, height=700)
+
+fig_remise.show()
