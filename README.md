@@ -61,8 +61,11 @@ https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scroll
 
 ## 📈 2) Analyse Comparative & Positionnement Stratégique (2023 vs 2024)
 L'utilisation du filtrage temporel dans Power BI permet d'isoler les performances annuelles et d'identifier les tendances de fond du mix-produit et de la rentabilité client.
+*  2023)
 <img width="1249" height="721" alt="image" src="https://github.com/user-attachments/assets/62799402-e626-4404-b76e-63356a9b0c92" />
-<img width="1241" height="717" alt="image" src="https://github.com/user-attachments/assets/9a3f1c94-0c9d-4dd2-bd41-32e93eda3e6b" />
+*  2024)
+<img width="1182" height="730" alt="image" src="https://github.com/user-attachments/assets/20252d5b-a29d-4864-b79c-29e2a5fd37bc" />
+
 
 1. Analyse des Indicateurs Clés (KPI)
 Volume de Marge : On observe une légère contraction de la marge totale, passant de 6,31 M€ en 2023 à 6,13 M€ en 2024.
