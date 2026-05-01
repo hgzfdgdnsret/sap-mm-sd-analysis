@@ -40,7 +40,7 @@ Remise Moyenne : 2,34 % – La politique tarifaire est globalement maîtrisée a
 *   `sap-sd-sales.csv` : Historique des commandes et remises.
 *   `donnees_completes_analyse.csv` : Dataset final enrichi pour Power BI.
 
-Visualisations et Analyses Dynamiques
+## 📊 1) Visualisations et Analyses Dynamiques
 L'utilisation de la bibliothèque Plotly permet une exploration interactive des données de performance. Trois axes d'analyse ont été privilégiés pour ce dossier :  
 
 Répartition du Chiffre d'Affaires et Profitabilité (Treemap)
@@ -57,3 +57,5 @@ Corrélation Remises / Marges (Scatter Plot)
 https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scrollTo=55aa40d1&fullscreenOutput=true
 
 *  Ce nuage de points analyse l'impact des politiques de remise sur le profit final. L'absence de points dans les zones de remises élevées (>20%) confirme une discipline commerciale stricte et une protection efficace de la marge brute.
+
+
