@@ -62,6 +62,16 @@ https://colab.research.google.com/drive/16KUxhBpkUcr8Nd3N0uV4AtEojionN9Rv#scroll
 ## 📈 2) Analyse Comparative & Positionnement Stratégique (2023 vs 2024)
 L'utilisation du filtrage temporel dans Power BI permet d'isoler les performances annuelles et d'identifier les tendances de fond du mix-produit et de la rentabilité client.
 
+* Rappel Power Query : Correction du typage (ABC vers 1.2) : Nous avons transformé les colonnes Net_Revenue_EUR, Margin et Standard_Cost qui étaient initialement reconnues comme du texte en nombres décimaux.
+
+Gestion des paramètres régionaux : Pour éviter les erreurs de conversion (le fameux "Error"), nous avons configuré l'importation en mode Anglais (États-Unis). Cela a permis à Power BI de comprendre que le point (.) était le séparateur décimal utilisé par ton script Python.
+
+Normalisation des dates : Nous avons vérifié que Order_Date était bien reconnu comme une date pour permettre la création de la hiérarchie temporelle (Année, Trimestre, Mois) indispensable à ton filtre interactif.
+
+Vérification de l'intégrité : Nous avons contrôlé qu'aucune ligne n'était en erreur après la conversion afin de garantir que la Somme de Marge (6,31 M€) soit mathématiquement exacte.
+
+Note technique pour ton dossier : Cette phase a permis de passer d'un fichier CSV brut à un modèle de données typé, prêt pour le calcul de mesures DAX complexes comme ton Taux de Marge %.
+
 <img width="1249" height="721" alt="image" src="https://github.com/user-attachments/assets/62799402-e626-4404-b76e-63356a9b0c92" />
 
 <img width="1182" height="730" alt="image" src="https://github.com/user-attachments/assets/20252d5b-a29d-4864-b79c-29e2a5fd37bc" />
