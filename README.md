@@ -39,6 +39,7 @@ Remise Moyenne : 2,34 % – La politique tarifaire est globalement maîtrisée a
 *   `sap-mm-materials.csv` : Données de coûts et groupes d'articles.
 *   `sap-sd-sales.csv` : Historique des commandes et remises.
 *   `donnees_completes_analyse.csv` : Dataset final enrichi pour Power BI.
+*   `bi-reports.pbix` : Power BI
 
 ## 📊 1) Visualisations et Analyses Dynamiques
 L'utilisation de la bibliothèque Plotly permet une exploration interactive des données de performance. Trois axes d'analyse ont été privilégiés pour ce dossier :  
