@@ -108,7 +108,7 @@ Maintien de la Discipline : La stabilité du taux de marge à ~28 % est un point
 
 
 ## 🎯 CONCLUSIONS STRATÉGIQUES 
-Insight 1 — Dépendance critique à un client clé
+* Insight 1 — Dépendance critique à un client clé
 
 Observation :
 Le client CUST013 génère 3,39M€ de chiffre d’affaires et reste stable sur 2 ans.
@@ -128,7 +128,7 @@ développer 2–3 clients équivalents
 analyser rentabilité réelle de ce client (coûts cachés ?)
 
 
-Insight 2 — Déséquilibre volume vs rentabilité (cas MAT028)
+* Insight 2 — Déséquilibre volume vs rentabilité (cas MAT028)
 
 Observation :
 
@@ -150,7 +150,7 @@ augmentation prix ou réduction remises (SD)
 sinon → désengagement progressif
 
 
-Insight 3 — Produit star ultra rentable (MAT021)
+* Insight 3 — Produit star ultra rentable (MAT021)
 
 Observation :
 
@@ -170,7 +170,7 @@ sécuriser stock (MM)
 pousser commercialement (SD)
 stratégie premium (pricing + faible remise)
 
-Insight 4 — Discipline commerciale maîtrisée
+* Insight 4 — Discipline commerciale maîtrisée
 
 Observation :
 
@@ -183,7 +183,7 @@ excellente maîtrise pricing → protège la marge
 
 le problème ne vient pas du commercial mais du mix produit + volume
 
-🔥 Insight 5 — Baisse de marge = problème de volume, pas de performance
+* Insight 5 — Baisse de marge = problème de volume, pas de performance
 
 Observation :
 
@@ -191,8 +191,7 @@ marge ↓ (6,31M → 6,13M)
 taux stable (~28%)
 
 Interprétation :
-👉 les produits restent rentables
-👉 MAIS moins vendus
+les produits restent rentables mais moins vendus
 
 Diagnostic :
 
@@ -207,7 +206,7 @@ analyse stock (ruptures ?)
 analyse pipeline commercial
 
 
-Insight 6 — Glissement stratégique dangereux (Automates → Câbles)
+* Insight 6 — Glissement stratégique dangereux (Automates → Câbles)
 
 Observation :
 
